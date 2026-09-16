@@ -1,0 +1,26 @@
+# Never commit live information or credentials, including in a private repository.
+node_modules/
+.local-data/
+local-data/
+.env
+.env.*
+!.env.example
+*.log
+*.sqlite*
+*.db
+*.dump
+*.bak
+*.pem
+*.key
+*session*.json
+credentials*.json
+*secret*.json
+*private*.json
+planning/import/snapshots/
+planning/import/*verification*.json
+planning/import/*decisions*.json
+verification/
+backups/
+.DS_Store
+coverage/
+
